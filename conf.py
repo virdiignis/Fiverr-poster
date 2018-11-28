@@ -1,0 +1,10 @@
+password = ""
+login_url = 'https://www.fiverr.com/login'
+CHROME = True  # True for Chrome and False for PhantomJS
+message_path = 'configurations/message.txt'
+target_urls_path = 'configurations/target_urls.txt'
+used_logins_path = 'configurations/used_logins.txt'
+proxies_path = 'configurations/proxies.txt'
+sleep_time = 60  # seconds. Sleep time after every message sent.
+sleep_time_gigs = 0  # seconds. Sleep time at every gigs listing page.
+processes_count = 1
